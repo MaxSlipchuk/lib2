@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(97, 12, 12);
+    color: bisque;
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+    font-weight: 20px;
+    padding-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding-left: 200px;
+    padding-right: 250px;
+    font-size: 17px;
+}
+
+.column {
+    flex: 1;
+}
+
+.column .image {
+    display: block;
+    margin: 15px auto; 
+    width: 55%;
+    height: 85%;
+    max-width: 500px;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    box-shadow: 7px 7px 7px black;
+
+}
+
+#author{
+    width: 62%;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    box-shadow: 7px 7px 7px black;
+    display: block;
+    margin: 15px auto 15px 320px; /* Center horizontally */
+}
+
+#author2{
+    width: 75%;
+    border-radius: 10px;
+    border: 2px solid bisque;
+    box-shadow: 7px 7px 7px black;
+    display: block;
+    margin: 20px 130px 15px;
+}
+
+#text-author1{
+    padding-left: 120px;
+}
+
